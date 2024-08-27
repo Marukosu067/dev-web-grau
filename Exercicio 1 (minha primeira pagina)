@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>computaria</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha primeira pagina HTML</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2> Seja bem vindo a minha pagina!
+        </article>
+        <aside>
+            <h4>entre em contato agora para nao perder nenhuma promocao</h4>
+        </aside>
+    </section>
+
+    <section>
+        <table>
+            <tr>gpu pica
+                <img width="230px" src="https://http2.mlstatic.com/D_NQ_NP_602412-MLU78324521457_082024-O.webp">
+            </tr>
+            <tr>cpu pica
+                <img width="230px" src="https://http2.mlstatic.com/D_NQ_NP_952296-MLU74137316282_012024-O.webp">
+            </tr>
+            <tr>MB pica
+                <img width="230px" src="https://http2.mlstatic.com/D_NQ_NP_735712-MLU54964518054_042023-O.webp">
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <div>
+        <a href="https://music.youtube.com/watch?v=A__cH65WRvE&list=RDAMVMA__cH65WRvE">Clica ai pra escutar uma msica da boa</a>
+        </div>
+    </footer>
+</body>
+</html>

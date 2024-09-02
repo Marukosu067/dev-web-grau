@@ -1,0 +1,71 @@
+parte 1
+import java.util.Scanner;
+import java.time.Year;
+
+public class FaixaEtaria {
+    public static String calcularFaixaEtaria(int anoNascimento) {
+        int anoAtual = Year.now().getValue();
+        int idade = anoAtual - anoNascimento;
+        
+        if (idade < 12) {
+            return "Criança";
+        } else if (idade >= 12 && idade < 18) {
+            return "Jovem";
+        } else if (idade >= 18 && idade < 65) {
+            return "Adulto";
+        } else {
+            return "Idoso";
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o ano de nascimento: ");
+        int anoNascimento = scanner.nextInt();
+        
+        String faixaEtaria = calcularFaixaEtaria(anoNascimento);
+        System.out.println("Faixa etária: " + faixaEtaria);
+        
+        scanner.close();
+    }
+}
+----------------------------------------------------------------
+parte 2
+import java.util.Scanner;
+
+public class EstacaoDoAno {
+    public static String obterEstacao(int mes) {
+        switch (mes) {
+            case 12: case 1: case 2:
+                return "Verão";
+            case 3: case 4: case 5:
+                return "Outono";
+            case 6: case 7: case 8:
+                return "Inverno";
+            case 9: case 10: case 11:
+                return "Primavera";
+            default:
+                return "Mês inválido";
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o número do mês (1 a 12): ");
+        int mes = scanner.nextInt();
+        
+        String estacao = obterEstacao(mes);
+        System.out.println("Estação do ano: " + estacao);
+        
+        scanner.close();
+    }
+}
+--------------------------------------------------------------
+parte 3
+public class ContadorFor {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BO MONTAR AQUELE SETOP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4b99e2;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #ce1a1a;
+            text-decoration: none;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-item {
+            background-color: #dddcdc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #f014c0;
+            color: #572525;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nova loja incrivel do Marcos</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#entrar">log-in</a></li>
+                <li><a href="#formulario">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img width="650" src="https://img.freepik.com/psd-premium/cyber-monday-super-sale-modelo-de-banner-de-capa-do-facebook_106176-3295.jpg?w=1060" alt="Banner da Empresa">
+    </div>
+
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_814028-MLA52221724020_102022-O.webp" alt="CPU PICA">
+            <p>CPU BRABO</p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_639248-MLB45384627861_032021-O.webp" alt="Produto 2">
+            <p>GPU BRABA</p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_725192-MLU73460110660_122023-O.webp" alt="Produto 3">
+            <p>MAINBOARD FODA D+ </p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_626317-MLB77602929440_072024-O.webp" alt="Produto 4">
+            <p>COLLERS</p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_864507-MLU73727320122_012024-O.webp'" alt="Produto 5">
+            <p>FONTE DA BOA</p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+        <div class="product-item">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_986785-MLB78300101581_082024-O.webp" alt="Produto 6">
+            <p>GABINETE RGB</p>
+            <Button>Partiu levar para casa!</Button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Telefone: (31) 4002-8922 | Endereço: Rua xxxx, xxx, Cidade x, Estado x</p>
+    </footer>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------
+//pag 2
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CPU PICA</title>
+</head>
+<body>
+   <h2>esteja pronto para ter o apice da perfornmance que um cpu pode entregar atualmente!</h2>
+    <img width="300" src="https://http2.mlstatic.com/D_NQ_NP_814028-MLA52221724020_102022-O.webp">
+</body>
+</html>
+----------------------------------------------------------------------------------------------
+//pag 3
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>terceira pagina foda</title>
+</head>
+<body>
+    <h2>Esteja preparado para rodar tudo no ultra com essa placa de video!</h2>
+    <br></bbr>
+    <img width="350" src="https://http2.mlstatic.com/D_NQ_NP_639248-MLB45384627861_032021-O.webp">
+</body>
+</html>
+---------------------------------------------------------------------------------------------
+//pag 4
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>mainbode fodastico</title>
+</head>
+<body>
+    <h2> Esta na hora de aproveitar todas as novas tecnologias que estão no mercado, garanta ja a sua!</h2>
+    <img width="350" src="https://http2.mlstatic.com/D_NQ_NP_725192-MLU73460110660_122023-O.webp">
+</body>
+</html>
+--------------------------------------------------------------------------------------------
+//formulario 
+https://docs.google.com/forms/d/e/1FAIpQLSdPqnEG4_FCZNQLDysrzhiKx9NiS3vcn225nAJvjt4SzCoCJg/viewform?usp=sf_link

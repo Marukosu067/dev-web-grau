@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+        <head>
+            <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>PCExpress</title>
+            <link rel= "stylesheet" href="css/style.css">
+        </head>
+    <body>
+        
+        <header> <h1>PCExpress</h1></header>
+            <nav>
+            <a herf="#home">Home</a>
+            <a herf="#produtos">Produtos</a>
+            <a herf="#contato">Contato</a>
+        </nav>
+
+        <section id="home">
+            <h2>Bem-vindo ao PCExpress</h2>
+            <p>Seu lugar para encontrar os melhores produtos de informatica.</p>
+        </select>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <p>foi tapeado</p>
+
+            <div class="product">
+                <h3>Notebook XYZ</h3>
+                <p>Processador Intel Core i7, 16GB RAM, 512GB SSD.</p>
+                <a href="html/notebook.html"><button>Ver Imagem</button></a>
+            </div>
+            
+            <div class="product">
+                <h3>Monitor 24'' 4k</h3>
+                <p>Resolução Ultra HD, Tecnologia IPS, Conexão HDMI e DisplayPort.</p>
+                <a href="html/monitor.html"><button>Ver Imagem</button></a>
+            </div>
+            
+            <div class="product">
+                <h3>Mouse Gamer ABC</h3>
+                <p>10.000 DPI, Iluminação RGB, Botões programáveis.</p>
+                <a href="html/mouse.html"><button>Ver Imagem</button></a>
+            </div>
+            <div id="image-display"> 
+                <img id="product-image" src="" alt="Imagem do Produto"
+                style="display: none; width: 100%; max-width: 500px; margin-top: 20px; border-radius: 8px;">
+            </div>
+            
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Email:clonarcartão@pcexpress.com</p>
+                <p>Telefone:(31) 1234-2222</p>
+            </section>
+            <footer>PCExpress - Todos os direitos reservados &copy; 2024</footer>
+        </select>
+        <script src="js/script.js"></script>
+    </body>
+</html>
